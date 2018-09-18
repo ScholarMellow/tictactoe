@@ -1,0 +1,75 @@
+h1 {
+	text-align: center;}
+
+
+td {
+	padding: 60px;
+}
+
+table {
+	margin: auto;
+}
+/*-----------------------------------------Top Columns -------------------------------------*/
+
+tr:first-child td:first-child {
+	border-right-width: 2px; 
+	border-right-style: solid;
+	border-right-color: black;
+}
+
+
+tr:first-child td:nth-child(3) {
+	border-left-width: 2px; 
+	border-left-style: solid;
+	border-left-color: black;
+}
+
+
+/*-----------------------------------------Middle Columns -------------------------------------*/
+
+tr:nth-child(2) td:first-child {
+	border-right-width: 2px; 
+	border-right-style: solid;
+	border-right-color: black;
+	border-bottom-width: 2px; 
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-top-width: 2px; 
+	border-top-style: solid;
+	border-top-color: black;
+
+}
+
+tr:nth-child(2) td:nth-child(2) {
+	border-bottom-width: 2px; 
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-top-width: 2px; 
+	border-top-style: solid;
+	border-top-color: black;
+}
+tr:nth-child(2) td:nth-child(3) {
+	border-left-width: 2px; 
+	border-left-style: solid;
+	border-left-color: black;
+	border-bottom-width: 2px; 
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-top-width: 2px; 
+	border-top-style: solid;
+	border-top-color: black;
+}
+
+
+/*-----------------------------------------Bottom Columns -------------------------------------*/
+
+tr:nth-child(3) td:first-child {
+	border-right-width: 2px; 
+	border-right-style: solid;
+	border-right-color: black;
+}
+
+tr:nth-child(3) td:nth-child(3) {
+	border-left-width: 2px; 
+	border-left-style: solid;
+	border-left-color: black;
